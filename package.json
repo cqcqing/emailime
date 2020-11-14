@@ -1,0 +1,15 @@
+{
+  "name": "emailime",
+  "version": "1.0.3",
+  "description": "Email IME is a JavaScript library for enter multiple email addresses. It's javaScript based.\r It works in all modern desktop browsers and doesn't depend on any external libraries.",
+  "main": "emailIME.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "emailime",
+    "email address"
+  ],
+  "author": "cqcqing",
+  "license": "MIT"
+}

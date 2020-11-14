@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.emailIME-box {
+    display: flex;
+    align-items: center;
+}
+
+.emailIME-box .eLabel {
+    min-width: 64px;
+}
+
+.emailIME-box ._emailContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2px 5px;
+    border: 1px solid black;
+    margin: 2px;
+    cursor: text;
+}
+
+.emailIME-box .item {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1px;
+    height: 23px;
+}
+
+.emailIME-box .item.inputClosed {
+    margin: 3px 6px 3px 6px;
+    background-color: #ceeef4;
+    border: 1px solid #264ad0;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.emailIME-box .item input {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 1px;
+    min-width: 1px;
+    padding: 0;
+}
+
+.emailIME-box .item .valueSpan {
+    cursor: default;
+}
+
+.emailIME-box .item .semicolon {
+    padding-left: 1px;
+    cursor: default;
+}
+
+.emailIME-box .waitEdit {
+    margin-right: -1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.emailIME-box .item input, span {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.emailIME-box .item.error span {
+    color: #f12525;
+}
+
+.emailIME-box .item.selected {
+    background: #2b51dd !important;
+}
+
+.emailIME-box .item.toActivate {
+    background: #72d5e8;
+}
+
+.emailIME-box .item.selected span {
+    color: white;
+}
+
+.virtualEl {
+    display: none;
+    position: absolute;
+    border: 1px black dotted;
+    width: 16px;
+    height: 12px;
+}
+
+.width_calculator {
+    visibility: hidden;
+    position: absolute;
+}
